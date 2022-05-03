@@ -1,0 +1,15 @@
+---
+layout: page
+title: Journal
+permalink: /journal/
+---
+
+As I write this entry, it’s difficult for me to remember how scared I was at the beginning of my first semester of college. I think that’s because I became so comfortable at UF throughout my first semester. I was busy starting the day after I moved in with H-Day, where I had great long conversations with other honors students. Breaking the ice with similar people played a significant role in my transition into college.
+
+My first semester began less than one week later, and I hit the ground running with seven classes. This course load was more than what I took in any semester in high school, but it was worth it. In Advanced Programming Fundamentals and Honors Professional Development: Engineering, I learned technical and professional skills that proved useful for the following semester and, I predict, will remain helpful afterwards. UF also enabled me to continue my primary creative outlet from high school: drumming. I had a chance to not only play with the UF Jazz Band, but also take private lessons with Clyde Connor, who the jazz band director likes to say is one of the best drummers in the world.
+
+Modern Internet software allowed me to stay connected to my close friends from high school, which, now that I think about it, probably also facilitated my transition into college. However, in the great acquaintances I met, I found the people who defined my first semester. Through the Open-Source Club, the Society of Software Developers, UF’s chapter of the Association for Computing Machinery (UF ACM), and The GAITOR Club, I met students specializing in many different fields of computer science. The GAITOR Club has been a particularly awesome experience. I joined the Thought Model Analysis (TMA) sub-team, a small group of undergraduates passionate about AI. During my first semester, we built Sabu, a Twitter sentiment analysis web application. I’d played with machine learning before, but never worked with concepts as advanced as those I did while making Sabu, and although I entered college with a decent amount of programming experience, this project was the largest I’d been a part of. My first semester with the team rekindled my love of making, and I’m pursuing my own coding projects this summer.
+
+Another student on the TMA team was the only other person I know who attempted to get as involved as I did in UF’s extracurricular CS community, and he became my mentor through UF ACM. I contributed to DocuMiner, his text mining web application project, and we worked on an independent geoparsing research project, methods from which we presented the following semester to UF’s Data Science and Informatics organization. He was involved in research this year, and his advice, along with what I learned in the University Research Scholarship Program, helped me set goals for the next three years.
+
+Ultimately, I consider my first semester as successful. I learned a lot not only in class, but also from the people I met and experiences I had outside the classroom, and I had a good amount of fun.

@@ -26,11 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: butakow
 linkedin_username: nbutakow
-header_pages:
-  - relevant-coursework.markdown
-  - research.markdown
-  - photo-gallery.markdown
-  - journal.markdown
+header_pages: []
 
 # Build settings
 theme: minima

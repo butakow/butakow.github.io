@@ -1,0 +1,16 @@
+{% capture start %}
+    {{ include.start | default: "0" }}
+{% endcapture %}
+{% capture suffix %}
+    {%- if start != "0" -%}
+        ?start={{ start }}
+    {%- endif -%}
+{% endcapture %}
+
+<iframe class="youtube" title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen frameborder="0"
+    width="{{ include.width | default: auto }}" height="{{ include.height | default: auto }}"
+    src="https://www.youtube-nocookie.com/embed/{{ include.id }}{{ suffix }}"
+>
+</iframe>

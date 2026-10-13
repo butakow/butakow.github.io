@@ -1,0 +1,14 @@
+---
+---
+
+#portrait {
+    width: 400px;
+    float: right;
+    margin: 10px;
+}
+
+@media (width <= 600px) {
+    #portrait {
+        width: 200px;
+    }
+}

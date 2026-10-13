@@ -1,0 +1,54 @@
+---
+---
+
+.youtube {
+	aspect-ratio: 16 / 9;
+}
+
+.media-grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 10px;
+}
+
+// 2 x YouTube embed min. width (2 x 300px) + one grid gap (10px) + 2 x wrapper padding (2 x 15px)
+@media (width < 640px) {
+	.media-grid {
+		grid-template-columns: auto;
+	}
+}
+
+.media-grid div {
+	display: flex;
+	align-items: center;
+	container-type: inline-size;
+}
+
+.media-grid div iframe {
+	flex-grow: 1;
+}
+
+/* Spotify embeds only render at heights of 352, 232, 152, or 80 pixels. The following queries ensure that
+Spotify embeds in the media grid are never taller than their neighboring YouTube embeds.*/
+
+.media-grid div .spotify {
+	height: 352px;
+}
+
+@container (413px <= width < 626px) {
+	.media-grid div .spotify {
+		height: 232px;
+	}
+}
+
+@container (271px <= width < 413px) {
+	.media-grid div .spotify {
+		height: 152px;
+	}
+}
+
+@container (width < 271px) {
+	.media-grid div .spotify {
+		height: 80px;
+	}
+}
